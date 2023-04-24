@@ -8,3 +8,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+.hero {
+  background-image: linear-gradient(#00000051, rgba(0, 0, 0, 0.281)) , url('./assets/bg-image.png');
+  object-fit: cover;
+  background-size: cover;
+}
