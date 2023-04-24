@@ -2,7 +2,7 @@ import Dropdown from "./Dropdown";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="flex justify-around">
       <span className="font-semibold">SOFTWIZ US</span>
       <Dropdown />
     </nav>
