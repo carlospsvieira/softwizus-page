@@ -24,16 +24,16 @@ function Dropdown() {
 
   return (
     <div className="relative inline-block text-left">
-      <div ref={dropdownRef}>
+      <div ref={dropdownRef} className="animate__animated animate__fadeInRight">
         <button
           type="button"
-          className="inline-flex w-full justify-center gap-x-1.5 rounded-md px-3 py-2 text-xl font-semibold text-zinc-700 shadow-md hover:bg-slate-50"
+          className="inline-flex w-full justify-center gap-x-1.5 rounded-md px-[2rem] py-2 text-xl font-semibold text-zinc-700 shadow-md hover:bg-slate-50"
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
           onClick={handleDropdown}
         >
-          DEVELOPERS
+          MEET YOUR DEVELOPERS
         </button>
       </div>
       <div

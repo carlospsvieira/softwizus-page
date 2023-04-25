@@ -45,7 +45,6 @@ function Contact() {
               name="email-body"
               rows="5"
               className="w-full p-3 border-2 rounded-lg border-gray-400 bg-transparent"
-              placeholder="Let's connect!"
               required
             ></textarea>
             <div>
