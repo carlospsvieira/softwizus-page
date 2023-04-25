@@ -1,11 +1,12 @@
 import './App.css'
+import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 
 function App() {
   return (
     <div>
       <Navbar />
-     <h1>Hello From SoftWizUs</h1>
+      <Hero />
     </div>
   )
 }
