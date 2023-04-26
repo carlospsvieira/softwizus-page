@@ -18,14 +18,14 @@ function Hero() {
         <h1 className="text-5xl">As Freelancers,</h1>
         <h2 className="text-7xl">All About Your Project</h2>
         <div className="flex gap-4 mt-[5rem] technologies">
-          <SiReact size={40} />
-          <SiVuedotjs size={40} />
-          <SiJavascript size={40} />
-          <SiTypescript size={40} />
-          <SiExpress size={40}/>
-          <SiPython size={40} />
-          <SiRuby size={40} />
-          <SiPhp size={40} />
+        <SiReact size={40} color='#61DAFB' className='icon' />
+          <SiVuedotjs size={40} color='#4FC08D' className='icon' />
+          <SiJavascript size={40} color='#F7DF1E' className='icon' />
+          <SiTypescript size={40} color='#3178C6' className='icon' />
+          <SiExpress size={40} color='#000000' className='icon' />
+          <SiPython size={40} color='#ffd966' className='icon' />
+          <SiRuby size={40} color='#CC342D' className='icon' />
+          <SiPhp size={40} color='#777BB4' className='icon' />
         </div>
       </div>
       
