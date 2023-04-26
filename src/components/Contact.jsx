@@ -1,11 +1,29 @@
 function Contact() {
+  const animateTitle = (title) => {
+    const letters = title.split("");
+
+    return letters.map((letter, index) => (
+      <span key={index}>
+        <span
+          onMouseEnter={(e) => {
+            e.target.classList.add("jump");
+            setTimeout(() => {
+              e.target.classList.add("stop");
+            }, 2000);
+          }}
+          style={{ whiteSpace: "pre" }}
+        >
+          {letter}
+        </span>
+      </span>
+    ));
+  };
+
   return (
-    <section
-      className="flex flex-col items-center justify-center"
-    >
+    <section className="flex flex-col items-center justify-center">
       <div className="flex flex-col items-center">
         <h2 className="text-4xl text-center text-white mb-4">
-          Send us a direct message!
+          {animateTitle("Send us a direct message!")}
         </h2>
         <form
           action="https://getform.io/f/2bce8a6b-4a81-44de-95ed-0d62adfea293"
