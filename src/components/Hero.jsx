@@ -17,7 +17,7 @@ function Hero() {
       <div className="flex flex-col gap-4 animate__animated animate__fadeInLeft text-white">
         <h1 className="text-5xl">As Freelancers,</h1>
         <h2 className="text-7xl">All About Your Project</h2>
-        <div className="flex gap-4 mt-[5rem]">
+        <div className="flex gap-4 mt-[5rem] technologies">
           <SiReact size={40} />
           <SiVuedotjs size={40} />
           <SiJavascript size={40} />

@@ -23,3 +23,30 @@
   transform: scale(0.9);
   transition: 0.3s;
 }
+
+@media only screen and (max-width: 1023px) {
+  
+  nav {
+    flex-direction: column;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero h1, .hero h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .technologies {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: large;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
